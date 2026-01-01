@@ -1,0 +1,27 @@
+div{
+    height: 200px;
+    width: 500px;
+    background-color: aquamarine;
+
+    /* border-width: 5px ;
+    border-color: black ;
+    border-style: dashed; */
+    /* or  */
+      border: 5px solid blueviolet ;   
+      
+      /* border-left-color: red;
+      border-right: solid;
+      border-top: 10px dotted blue; */
+      border-radius: 10px   ; 
+
+       /* for all */
+      /* padding: 20px ; */
+
+      /* diff for all side  */
+      /* padding: 20px 30px 10px  50px; */
+
+      padding-left: 34px;
+      padding-top: 48px;
+
+      margin: 100px;
+}

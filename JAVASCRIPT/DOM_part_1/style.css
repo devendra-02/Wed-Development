@@ -1,0 +1,25 @@
+#heading{
+    color: rgb(65, 11, 113);
+}
+body{
+    background-color: antiquewhite;
+}
+.same{
+    color: rgb(85, 51, 14);
+}
+button{
+    background-color: brown;
+    color: bisque;
+}
+img{
+    height: 200px;
+}
+
+.box{
+    height: 70px;
+    width: 70px;
+    background-color: aqua;
+    border:3px solid black;
+    text-align: center;
+    margin: 4px;
+}

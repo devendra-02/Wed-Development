@@ -1,0 +1,16 @@
+h2 {
+  display: inline;
+  background-color: rgb(240, 170, 194);
+}
+span{
+    display: block  ;
+}
+
+div{
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    margin: 20px;
+    background-color: aqua;
+    display: inline-block;
+}

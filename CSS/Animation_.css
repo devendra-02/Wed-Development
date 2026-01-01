@@ -1,0 +1,65 @@
+.box {
+  height: 100px;
+  width: 300px;
+  background-color: rgb(97, 188, 91);
+  text-align: center;
+
+  /* animation-name: move;
+    animation-duration: 2s ;
+    animation-timing-function:ease ;
+    animation-delay: 0s ;
+    animation-iteration-count: 3;
+    animation-direction: alternate; */
+
+  /********** 0r ********/
+
+  /* animation: move  2s ease 0s 3 alternate; */
+
+  /* for multiple itration at a same time  */
+  animation: boxsize 2s ease 0s infinite alternate, move 2s ease 0s 3 alternate;
+}
+
+@keyframes boxsize {
+  from {
+    width: 5px;
+    background-color: green;
+    font-size: 1px;
+  }
+  to {
+    width: 200px;
+    background-color: red;
+    font-size: 40px;
+  }
+}
+
+@keyframes move {
+  from {
+    translate: 5px;
+  }
+  to {
+    translate: 100px;
+  }
+}
+
+.font {
+  animation: fontsize 2s ease 0s infinite alternate;
+}
+@keyframes fontsize {
+  0% {
+    text-align: right;
+    background-color: green;
+    color: white;
+    transform: translateX(5px);
+  }
+  50% {
+    text-align: center;
+    background-color: black;
+    color: white;
+  }
+  100% {
+    text-align: left;
+    background-color: rgb(107, 12, 12);
+    color: white;
+    transform: translateX(100px);
+  }
+}

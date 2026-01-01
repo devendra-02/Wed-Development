@@ -1,0 +1,94 @@
+#div1 {
+  font-size: 100px;
+  background-color: rgb(234, 82, 82);
+  /* color: rgba(255, 255, 255 ,0.2) ; */
+  color: rgba(0, 0, 0, 0.4);
+}
+#div2 {
+  height: 200px;
+  width: 200px;
+  background-color: orange;
+  opacity: 0.9;
+  margin: 20px;
+  display: inline-block;
+}
+
+h3 {
+  padding: 40px;
+}
+#div2:hover {
+  background-color: black;
+  color: white;
+  transition: 1s;
+  border-radius: 50%;
+}
+
+.rotate div {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+  background-color: #7aa874;
+  border: 2px black solid;
+  margin: 10px;
+  /* transform: rotate(30deg); */
+}
+
+.rotate div:nth-of-type(2n) {
+  background-color: #f7db6a;
+}
+.rotate div:nth-of-type(3n) {
+  background-color: #ebb02d;
+}
+
+#one {
+  /* transform: rotate(30deg);
+  transform-origin: top left; */
+ 
+  transform: rotate(30deg)  scale(1 , 0.5);
+  transform-origin: top left
+}
+
+#three {
+  transform: translateX(300px) scale(1.2);
+  box-shadow:  5px 5px 10px rgba(0, 255, 81, 0.756), /* Main drop shadow */
+    -5px -5px 30px rgba(254, 0, 0, 0.7) /* Light source from top-left */;
+  
+}
+#four{
+    transform: translate(100px , 20px);
+    box-shadow:5px 5px 8px #888888 ;
+}
+#two{
+    transform: skewY(30deg) translateY(400px);
+}
+
+#background{
+    transform: translateX(150px);
+    width: 400px;
+    height: 300px;
+    background-color: rgb(151, 185, 215);
+    margin: 10px auto;
+    background-image: url("z_D2.jpg");
+    background-size: contain;
+    color: aliceblue;
+    font-size: 20px;
+}
+
+.div2{
+  position: relative;
+  top: 70px;
+  left: 100px;
+}
+
+#fixed{
+
+  position: fixed;
+  top: 100px;
+  left: 100px;
+
+   height: 200px;
+  width: 200px;
+  background-color: orange;
+  opacity: 0.9;
+  margin: 20px;
+}

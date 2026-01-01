@@ -1,0 +1,25 @@
+#container{
+    height: 300px;
+    width: 80%;
+    background-color: rgb(161, 255, 255);
+    margin: 10px auto;
+    border: 2px solid black;
+    display: flex;
+    flex-direction: row; 
+    align-items: baseline; 
+    
+}
+
+hi{
+    text-align: center;
+}
+#orange{
+    align-self: flex-end;
+}
+#container div{
+    height: 20px;
+    width: 60px;
+    color: white;
+    text-align: center;
+    font-size: 10px;
+}

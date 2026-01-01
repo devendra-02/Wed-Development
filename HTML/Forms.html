@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
+    <title>Forms in HTML</title>
+  </head>
+  <body>
+    <form action="aagya">
+      <!-- ********** types of input ************  -->
+
+      <div>
+        <!-- types of input = number , colour , time , date , etc -->
+        <label>
+          usename
+          <input type="text" placeholder="name " />
+        </label>
+      </div>
+
+      <div>
+        <!-- password -->
+        <label for="pass">enter the passoword</label>
+        <input type="password" id="pass" placeholder="password" />
+
+        <br />
+        <!-- checkbox -->
+        <label for="age"> i am 18+ </label>
+        <input type="checkbox" id="age" checked />
+        <button>submit</button>
+      </div>
+
+      <br />
+      <!-- radio -->
+      <label for="radio1"> apple</label>
+      <input type="radio" name="fruit" id="radio1" value="apple" />
+      <label for="radio2"> mango</label>
+      <input type="radio" name="fruit" id="radio2" value="mango" />
+      <label for="radio3"> orange</label>
+      <input type="radio" name="fruit" id="radio3" value="orange" />
+      <button>submit</button>
+
+      <br />
+
+      <!-- select ( Dropdown ) -->
+      <label for="profes">profession</label>
+      <select name="profe1" id="profes">
+        <option value="student">student</option>
+        <option value="developer">developer</option>
+        <option value="teacher">teacher</option>
+      </select>
+      <button>submit</button>
+
+      <br />
+
+      <!-- Range input -->
+      <label for="volume1"> Volume </label>
+      <input
+        type="range"
+        id="volume1"
+        min="0"
+        max="100"
+        name="Vol"
+        step="10"
+        value="50"
+      />
+      <button>submit</button>
+
+      <br />
+
+      <!-- Text Area input -->
+      <label for="feedback"> provide your feedback </label>
+      <textarea
+        id="feedback"
+        name="feedback"
+        rows="3"
+        cols="5"
+        placeholder="write hear"
+      ></textarea>
+      <button>submit</button>
+
+      
+    </form>
+  </body>
+</html>
+ 
