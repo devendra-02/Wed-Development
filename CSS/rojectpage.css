@@ -1,0 +1,46 @@
+
+
+#partion{
+flex: 1;
+display: flex;
+  flex-direction: column;
+  padding: 50px 40px;
+}
+
+.left-section {
+    margin: 10rem;
+    height: 900px;
+    font-family: 'Segoe UI', Arial, sans-serif;
+  align-items: flex-start;
+  background-image: linear-gradient(hsla(238, 39%, 82%, 0.8), hsla(238, 39%, 82%, 0.8)), url("medicine\ bottle.png");
+  background-size: 90%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.left-logo-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  top: 15px;           
+  left: 15px;         
+}
+
+.left-section .logo {
+  width: 40px;
+  margin-bottom: 0;    
+}
+.left-section h2 {
+  font-size: 10px;
+  margin-bottom: 10px;
+}
+.left-section p {
+  font-size: 20px;
+  text-align: left;
+  color: rgba(0, 0, 0, 0.79);
+  margin: 0px 12px; 
+}
+.left-section .stethoscope {
+  margin-top: 80px;
+  width: 100%;
+}
